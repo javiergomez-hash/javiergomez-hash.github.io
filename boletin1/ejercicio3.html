@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 3 - Enlaces, Marcadores e Imágenes</title>
+</head>
+<body id="inicio">
+
+  <h1>Documentación y Recursos Web</h1>
+
+  <!-- Menú de marcadores internos -->
+  <nav>
+    <ul>
+      <li><a href="#seccion1">Sección 1: Introducción a HTML5</a></li>
+      <li><a href="#seccion2">Sección 2: Hoja de Estilos CSS3</a></li>
+      <li><a href="#seccion3">Sección 3: Imágenes y Recursos</a></li>
+    </ul>
+  </nav>
+
+  <hr>
+
+  <!-- Enlaces externos y de retorno -->
+  <p>
+    <a href="https://developer.mozilla.org/es/" target="_blank" title="Ir a la documentación oficial de MDN">
+      Visita la documentación oficial de MDN Web Docs (Abre en pestaña nueva)
+    </a>
+  </p>
+  <p>
+    <a href="index.html" title="Volver al índice principal">Volver al índice principal</a>
+  </p>
+
+  <hr>
+
+  <!-- Sección 1 -->
+  <section id="seccion1">
+    <h2>Sección 1: Introducción a HTML5</h2>
+    <p>
+      HTML5 es la última versión del estándar de lenguaje de marcado utilizado para estructurar páginas web. Introdujo elementos semánticos que mejoran la accesibilidad y el posicionamiento en motores de búsqueda (SEO), así como soporte nativo para audio y video sin necesidad de complementos externos.
+    </p>
+    <p>
+      Las etiquetas semánticas como <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;article&gt;</code> y <code>&lt;footer&gt;</code> permiten definir la estructura del documento con mayor claridad para los navegadores y lectores de pantalla.
+    </p>
+    <a href="#inicio">Volver arriba</a>
+  </section>
+
+  <hr>
+
+  <!-- Sección 2 -->
+  <section id="seccion2">
+    <h2>Sección 2: Hoja de Estilos CSS3</h2>
+    <p>
+      CSS3 permite separar la estructura del contenido del diseño visual. Gracias a CSS3 es posible aplicar reglas de estilo complejas, transiciones, animaciones y esquemas de diseño avanzados como Flexbox y CSS Grid.
+    </p>
+    <p>
+      Un diseño adaptativo (Responsive Web Design) garantiza que las páginas se visualicen correctamente en una amplia variedad de dispositivos, desde pantallas de escritorio hasta smartphones.
+    </p>
+    <a href="#inicio">Volver arriba</a>
+  </section>
+
+  <hr>
+
+  <!-- Sección 3 -->
+  <section id="seccion3">
+    <h2>Sección 3: Imágenes y Recursos</h2>
+    <p>
+      A continuación se incluyen ejemplos de optimización e inserción de imágenes:
+    </p>
+
+    <!-- Imagen de ruta relativa (debe existir en la carpeta /img/logo.png) -->
+    <h3>Imagen Relativa</h3>
+    <img src="Img/5.jpg" alt="Logotipo local del proyecto" title="Logotipo guardado en la carpeta img" width="200" height="200">
+
+    <!-- Imagen externa -->
+    <h3>Imagen Externa</h3>
+    <img src="https://mediaverse.sevillafc.hiway.media/image/681a13d1/Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n.jpeg" alt="Imagen remota de ejemplo" title="Imagen cargada desde un servidor externo" width="300" height="150">
+
+    <br><br>
+    <a href="#inicio">Volver arriba</a>
+  </section>
+
+</body>
+</html>
