@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Login</title>
+</head>
+
+<body>
+
+    <h1>Iniciar Sesión</h1>
+
+    <form action="https://lm.ciclo.iesnervion.es/encuesta.php" method="POST">
+        <fieldset>
+            <legend>Datos Academicos</legend>
+            <label for="nombre">Nombre y Apellidos</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="ciclo">Ciclos Formativos</label>
+            <select id="ciclo" name="ciclo">
+                <option value="DAM" selected>DAM</option>
+                <option value="DAW">DAW</option>
+                <option value="ASIR">ASIR</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Preferencias Tecnicas</legend>
+            <label for="lenguaje">Lenguaje Principal</label><br>
+            <input type="radio" id="lenguaje" name="lenguaje" value="java">
+            <label for="java">Java</label>
+
+            <input type="radio" id="lenguaje" name="lenguaje" value="Phyton">
+            <label for="Phyton">Phyton</label>
+
+            <input type="radio" id="lenguaje" name="lenguaje" value="c#">
+            <label for="c#">C#</label>
+
+            <input type="radio" id="lenguaje" name="lenguaje" value="javascript">
+            <label for="javascript">JavaScript</label><br>
+
+            <label for="entornos">Entornos de trabajo habituales</label><br>
+            <input type="checkbox" id="entornos" name="entornos" value="linux">
+            <label for="linux">Linux</label>
+
+            <input type="checkbox" id="entornos" name="entornos" value="Windows">
+            <label for="Windows">Windows</label>
+
+            <input type="checkbox" id="entornos" name="entornos" value="macOS">
+            <label for="macOS">macOS</label>
+            <br>
+
+            <label for="comentarios">Experiencias previa</label><br>
+            <textarea rows="4" col="40"></textarea>
+            <br>
+            <button type="reset">REINICIAR</button>
+            <button type="submit">ENVIAR</button>
+
+        </fieldset>
